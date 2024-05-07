@@ -1,4 +1,4 @@
-::root {
+:root {
   --cor1: #010409;
   --cor2: #fbfcfd;
   --cor3: #040912;
@@ -9,8 +9,8 @@ width: 100vw;
 height: 100vh;
 margin: 0;
 
-background: --cor1;
-color: --cor2;
+background-color: #010409;
+color: #fbfcfd;
 
 display: flex;
 flex-direction: row;
@@ -22,11 +22,9 @@ align-items: center;
   width: 35%;
   height: 45%;
 
-  background-color: --cor3;
+  background-color: #040912;
   border-radius: 3px;
   padding: 3px;
+  
 }
 
-h1 {
-  color: --cor2;
-}
